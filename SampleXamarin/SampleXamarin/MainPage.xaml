@@ -10,6 +10,8 @@
                      x:Name="menuSegitiga" Clicked="menuSegitiga_Clicked" />
         <ToolbarItem Text="Grid Layout" Order="Secondary" 
                      x:Name="menuGrid" Clicked="menuGrid_Clicked" />
+        <ToolbarItem Text="Contoh ListView" Order="Secondary" 
+                     x:Name="menuList" Clicked="menuList_Clicked" />
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>

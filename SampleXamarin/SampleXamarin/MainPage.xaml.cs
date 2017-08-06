@@ -28,5 +28,10 @@ namespace SampleXamarin
         {
             Navigation.PushAsync(new GridPage());
         }
+
+        private void menuList_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ContohListView());
+        }
     }
 }
