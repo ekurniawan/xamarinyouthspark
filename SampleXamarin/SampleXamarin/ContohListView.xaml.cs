@@ -18,7 +18,8 @@ namespace SampleXamarin
 
             List<string> items = new List<string>
             {
-                "Satu","Dua","Tiga","Empat","Lima"
+                "Belajar Xamarin","Belajar Android","Belajar C#","Belajar IOS",
+                "Belajar Construct2"
             };
 
             listView.ItemsSource = items;
