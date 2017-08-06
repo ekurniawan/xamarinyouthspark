@@ -8,6 +8,8 @@
                      x:Name="menuKalkulator" Clicked="menuKalkulator_Clicked"  />
         <ToolbarItem Text="Hitung Segitiga" Order="Secondary" 
                      x:Name="menuSegitiga" Clicked="menuSegitiga_Clicked" />
+        <ToolbarItem Text="Grid Layout" Order="Secondary" 
+                     x:Name="menuGrid" Clicked="menuGrid_Clicked" />
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>

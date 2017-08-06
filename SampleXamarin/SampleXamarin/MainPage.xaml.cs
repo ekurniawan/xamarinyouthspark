@@ -23,5 +23,10 @@ namespace SampleXamarin
         {
             Navigation.PushAsync(new SegitigaPage());
         }
+
+        private void menuGrid_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new GridPage());
+        }
     }
 }

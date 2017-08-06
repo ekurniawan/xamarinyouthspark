@@ -13,10 +13,14 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <Label Text="Pojok Kiri Atas" Grid.Column="0" Grid.Row="0" FontSize="Large" HorizontalOptions="Center" />
-            <Label Text="Pojok Kanan Atas" Grid.Column="1" Grid.Row="0" FontSize="Large" HorizontalOptions="Center" />
-            <Label Text="Pojok Kiri Bawah" Grid.Column="0" Grid.Row="1" FontSize="Large" HorizontalOptions="Center" />
-            <Label Text="Pojok Kanan Bawah" Grid.Column="1" Grid.Row="1" FontSize="Large" HorizontalOptions="Center" />
+            <Label Text="Pojok Kiri Atas" Grid.Column="0" Grid.Row="0" FontSize="Large" 
+                   HorizontalOptions="Center" VerticalTextAlignment="Center" />
+            <Label Text="Pojok Kanan Atas" Grid.Column="1" Grid.Row="0" FontSize="Large" 
+                   HorizontalOptions="Center" VerticalTextAlignment="Center" />
+            <Label Text="Pojok Kiri Bawah" Grid.Column="0" Grid.Row="1" FontSize="Large" 
+                   HorizontalOptions="Center" VerticalTextAlignment="Center" />
+            <Label Text="Pojok Kanan Bawah" Grid.Column="1" Grid.Row="1" FontSize="Large" 
+                   HorizontalOptions="Center" VerticalTextAlignment="Center" />
         </Grid>
     </ContentPage.Content>
 </ContentPage>
