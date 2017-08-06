@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SampleXamarin.SegitigaPage" Title="Luas Segitiga">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Luas Segitiga" FontSize="Large" 
+                   TextColor="Magenta" HorizontalTextAlignment="Center" 
+                   Margin="0,0,0,20" />
+            
+            <Label Text="Alas :" FontSize="Medium" />
+            <Entry x:Name="txtAlas" Placeholder="masukan alas" Keyboard="Numeric" />
+
+            <Label Text="Tinggi :" FontSize="Medium" />
+            <Entry x:Name="txtTinggi" Placeholder="masukan tinggi" Keyboard="Numeric" />
+
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="btnAlas" Text="Hitung" Clicked="btnAlas_Clicked" />
+                <Button x:Name="btnReset" Text="Reset" Clicked="btnReset_Clicked" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
