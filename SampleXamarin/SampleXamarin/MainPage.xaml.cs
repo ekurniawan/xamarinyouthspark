@@ -33,5 +33,10 @@ namespace SampleXamarin
         {
             Navigation.PushAsync(new ContohListView());
         }
+
+        private void menuBarang_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ListBarangPage());
+        }
     }
 }

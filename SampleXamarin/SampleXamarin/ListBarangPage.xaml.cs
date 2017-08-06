@@ -23,6 +23,9 @@ namespace SampleXamarin
         public ListBarangPage()
         {
             InitializeComponent();
+            listBarang.ItemsSource = dataItems;
+
+
         }
     }
 }

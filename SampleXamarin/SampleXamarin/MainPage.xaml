@@ -12,6 +12,8 @@
                      x:Name="menuGrid" Clicked="menuGrid_Clicked" />
         <ToolbarItem Text="Contoh ListView" Order="Secondary" 
                      x:Name="menuList" Clicked="menuList_Clicked" />
+        <ToolbarItem Text="Barang ListView" Order="Secondary" 
+                     x:Name="menuBarang" Clicked="menuBarang_Clicked" />
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
