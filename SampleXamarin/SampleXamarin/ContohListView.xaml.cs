@@ -23,6 +23,13 @@ namespace SampleXamarin
             };
 
             listView.ItemsSource = items;
+            listView.ItemTapped += ListView_ItemTapped;
+        }
+
+        private void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            string data = e.Item.ToString();
+            DisplayAlert("Konfirmasi", "Anda memilih data: " + data, "OK");
         }
     }
 }
