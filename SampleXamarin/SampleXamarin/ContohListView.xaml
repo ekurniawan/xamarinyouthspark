@@ -4,7 +4,7 @@
              x:Class="SampleXamarin.ContohListView">
     <ContentPage.Content>
         <StackLayout>
-            
+            <ListView x:Name="listView" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
