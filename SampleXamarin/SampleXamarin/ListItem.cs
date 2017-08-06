@@ -10,6 +10,7 @@ namespace SampleXamarin
     {
         public string Title { get; set; }
         public string Description { get; set; }
+        public string Gambar { get; set; }
         public double Price { get; set; }
     }
 }

@@ -14,18 +14,24 @@ namespace SampleXamarin
     {
         static List<ListItem> dataItems = new List<ListItem>
         {
-            new ListItem { Title="Clash Of Clan",Description="Online game yang mempunyai genre real time strategy yang sangat populer" },
-            new ListItem { Title="Fifa 18",Description="Game sepakbola paling populer di dunia" },
-            new ListItem { Title="DOTA", Description="Game RTS paling populer sepanjang masa"},
-            new ListItem { Title="Metal Gear Solid", Description="Third person game strategy paling populer"}
+            new ListItem { Title="Clash Of Clan",
+                Gambar="coc.png",
+                Description ="Online game yang mempunyai genre real time strategy yang sangat populer" },
+            new ListItem { Title="Fifa 18",
+                Gambar="fifa.png",
+                Description ="Game sepakbola paling populer di dunia" },
+            new ListItem { Title="DOTA",
+                Gambar="dota.png",
+                Description ="Game RTS paling populer sepanjang masa"},
+            new ListItem { Title="Metal Gear Solid",
+                Gambar="mgs.png",
+                Description ="Third person game strategy paling populer"}
         };
 
         public ListBarangPage()
         {
             InitializeComponent();
             listBarang.ItemsSource = dataItems;
-
-
         }
     }
 }
