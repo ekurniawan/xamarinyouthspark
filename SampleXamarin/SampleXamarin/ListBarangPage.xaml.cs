@@ -32,6 +32,15 @@ namespace SampleXamarin
         {
             InitializeComponent();
             listBarang.ItemsSource = dataItems;
+
+            listBarang.ItemTapped += ListBarang_ItemTapped;
+        }
+
+        private void ListBarang_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var data = (ListItem)e.Item;
+            DisplayAlert("Keterangan",
+                "Anda memilih : " + data.Title, "OK");
         }
     }
 }
